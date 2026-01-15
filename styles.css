@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  width: 300px;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+/* Font hierarchy */
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.designation {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  background: #eeeeee;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #111111;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#github{
+    background-color: #323232;
+    color: #ffffff;
+}
+
+#linkedin{
+    background-color: #052db3;
+    color: #ffffff;
+}
+
+#twitter{
+    background-color: #3759ee;
+    color: #ffffff;
+}
+
+/*
+.social-icons a:hover {
+  background: #ee0000;
+  color: #1f0707;
+  box-shadow: #111111; 
+  scale: 200px;
+}
+
+*/
+
+.social-icons a:hover {
+  background: #ee0000;
+  color: #1f0707;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
